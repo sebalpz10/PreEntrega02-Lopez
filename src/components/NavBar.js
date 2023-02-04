@@ -7,9 +7,9 @@ const NavBar = (props) => {
     if (isHeader) {
         return (
             <nav className="header_navbar">
-                <Link className="header_link" to="/products/category01">Category 1</Link>
-                <Link className="header_link" to="/products/category02">Category 2</Link>
-                <Link to="/carrito">
+                <Link className="header_link" to="/products/tools">Tools</Link>
+                <Link className="header_link" to="/products/clothes">Clothes</Link>
+                <Link to="/cart">
                     <span className="material-icons">shopping_cart</span>
                 </Link>
             </nav>
