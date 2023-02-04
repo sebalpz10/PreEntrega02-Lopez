@@ -26,7 +26,7 @@ const ItemListContainer = () => {
 
     return (
         <div>
-            {load ? 'Loaded Products' : 'Loading'}
+            {load ? null : 'Loading'}
             <ItemList products={products}></ItemList>
         </div>
     )

@@ -7,8 +7,9 @@ const Header = () => {
 
     return (
         <header className="header">
-            <Link to="/">
-                <h1 className="header_title">Title</h1>
+            <h1 className="none">#</h1>
+            <Link to="/" className="logo_link">
+                <img src="/img/logo/logo.png" alt="logo" className="logo_img" />
             </Link>
             <NavBar isHeader={isHeader}></NavBar>
         </header>

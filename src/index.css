@@ -1,1 +1,177 @@
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+* {
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+#root {
+    background-color: #2a2d3dc0;
+}
+
+.none {
+    display: none;
+}
+
+.header {
+    background-color: #2a2d3dc0;
+    display: flex;
+    justify-content: space-between;
+
+    border-bottom: #000000 solid 2px;
+
+    margin-bottom: 20px;
+}
+
+.logo_img {
+    height: 75px;
+
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.header_navbar {
+    display: flex;
+
+    align-items: center;
+}
+
+.header_ul {
+    display: flex;
+
+    list-style-type: none;
+}
+
+.header_li {
+    margin-right: 35px;
+}
+
+.header_link {
+    text-decoration: none;
+
+    color: #c8c8c8;
+
+    font-size: 25px;
+
+    border-bottom: #c8c8c8 solid 2px;
+}
+
+.header_link:hover {
+    color: #ffffff;
+
+    border-bottom: #ffffff solid 2px;
+}
+
+.cart {
+    margin-top: 7px;
+    margin-right: 20px;
+
+    color: #c8c8c8;
+
+    text-decoration: none;
+}
+
+.cart:hover {
+    color: #ffffff;
+}
+
+.item_list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+
+    justify-content: center;
+}
+
+.product_card {
+    width: 270px;
+
+    border: #c8c8c8 solid 2px;
+    border-radius: 4px;
+
+    text-align: center;
+
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.product_card:hover {
+    border: #ffffff solid 2px;
+}
+
+.product_img {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.product_name {
+    color: #ffffff;
+
+    margin-bottom: 10px;
+}
+
+.product_price {
+    color: #47d66b;
+
+    margin-bottom: 20px;
+}
+
+.product_btn {
+    text-decoration: none;
+
+    color: #c8c8c8;
+
+    padding: 5px;
+
+    border: #c8c8c8 solid 2px;
+    border-radius: 5px;
+}
+
+.product_btn:hover {
+    border: #ffffff solid 2px;
+
+    color: #ffffff;
+}
+
+.footer {
+    background-color: #2a2d3dc0;
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 20px;
+
+    height: 50px;
+
+    align-items: center;
+}
+
+.footer_copy {
+    color: #c8c8c8;
+
+    margin-left: 20px;
+}
+
+.footer_link {
+    text-decoration: none;
+
+    color: #c8c8c8;
+
+    margin-right: 20px;
+}
+
+.footer_link:hover {
+    color: #ffffff;
+}
+
+.item_detail {
+    height: 50vw;
+}

@@ -3,15 +3,17 @@ import { BrowserRouter } from "react-router-dom"
 import Header from "./Header"
 import MainRoutes from "./MainRoutes"
 import Footer from "./Footer"
-
+import CartProvider from "./CartProvider"
 
 const App = () => {
     return (
-        <BrowserRouter>
-            <Header></Header>
-            <MainRoutes></MainRoutes>
-            <Footer></Footer>
-        </BrowserRouter>
+        <CartProvider>
+            <BrowserRouter>
+                <Header></Header>
+                <MainRoutes></MainRoutes>
+                <Footer></Footer>
+            </BrowserRouter>
+        </CartProvider>
     )
 }
 

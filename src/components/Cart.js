@@ -6,7 +6,7 @@ const Cart = () => {
 
     return (
         <div>
-            <button onClick={handleClick}>Finish shopping</button>
+            <button onClick={handleClick}>BUY</button>
         </div>
     )
 }

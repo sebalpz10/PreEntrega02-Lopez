@@ -5,7 +5,7 @@ import Cart from "./Cart"
 
 const MainRoutes = () => {
     return (
-        <main>
+        <main className="main">
             <Routes>
 
                 <Route path="/" element={<ItemListContainer></ItemListContainer>}></Route>
