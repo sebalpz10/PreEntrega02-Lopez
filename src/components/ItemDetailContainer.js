@@ -3,6 +3,8 @@ import ItemDetail from "./ItemDetail";
 
 const ItemDetailContainer = () => {
 
+    // No me muestra los productos pero no entiendo cual seria el error
+
     const [product, setProduct] = useState({});
 
     useEffect(() => {
