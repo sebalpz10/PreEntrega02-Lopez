@@ -1,12 +1,9 @@
-import { useContext } from "react"
 import { Link } from "react-router-dom"
-import { context } from "./CartProvider"
+import CartWidget from "./CartWidget"
 
 const NavBar = (props) => {
 
     const { isHeader, textLinkFooter, hrefLinkFooter } = props
-
-    const { totalProducts } = useContext(context)
 
     if (isHeader) {
         return (
@@ -19,10 +16,7 @@ const NavBar = (props) => {
                         <Link className="header_link" to="/category/clothes">Clothes</Link>
                     </li>
                 </ul>
-                <Link to="/cart" className="cart">
-                    <span className="material-icons">shopping_cart</span>
-                    {totalProducts}
-                </Link>
+                <CartWidget></CartWidget>
             </nav>
         )
     } else {
